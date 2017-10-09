@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{	
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica Neue;
+	font-weight: lighter;
+}
+html,body{
+	background-color:#e2e2e2;
+}
+section#formulario{
+	position: absolute;
+    top:50%
+	left:50%;
+	margin-left:-200px
+	margin-top:300px;
+	width:760px;
+	min-height:100px;
+	background-color: white;
+	overflow: hidden;
+	left:195px;
+	top:96px;
+	height:207px;
+}
+p#titulo{
+	font-size:1.6em
+	text-align:center;
+	margin-top:20px 
+}
+input[tipe="text"], input[tipe="mail"], select [name="sexo"]{
+	width: 350px;
+	height: 35px;
+	margin-left:20px;
+	margin-top:10px; 
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+
+}
+input[tipe="sublime"]{
+	margin:20px;
+	margin-bottom: 20px;
+	width: 360px;
+	height: 40px;
+	outline: none;
+	border: 0px;
+	background-color: #75b6dc;
+	color:white;
+	font-size: 1.2em;
+	border-radius: 5px;
+}

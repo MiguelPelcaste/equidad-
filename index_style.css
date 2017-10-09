@@ -1,0 +1,64 @@
+*{	
+	margin:0px;
+	padding:0px;
+	font-family:helvetica Neue;
+	font-weight:lighter;
+
+}
+html,body{
+	background-color: #0066FF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	line-height: normal;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	clear: both;
+	float: left;
+	height: auto;
+	width: auto;
+}
+section#formulario{
+	position: absolute;
+
+
+
+
+	top:50%
+	left:50%;
+	margin-left: -200px;
+	margin-top: 300px;
+	width: 400px;
+	min-height: 100px;
+	background-color: white;
+	overflow: hidden;
+	left: 505px;
+	top: -206px;
+}
+p#titulo{
+	font-size:1.6em;
+	text-align:center;
+	margin-top:20px;
+}
+input[tipe="text"], input[tipe="correo"], select [name="sexo"]{
+	width:350px;
+	height:35px;
+	margin-left:20px;
+	margin-top:10px; 
+	padding-left:10px;
+	font-size:1.1em;
+	outline:none;
+
+}
+input[tipe="sublime"]{
+	margin:20px;
+	margin-bottom:20px;
+	width:360px;
+	height:40px;
+	outline:none;
+	border:0px;
+	background-color:#75b6dc;
+	color:white;
+	font-size:1.2em;
+	border-radius:5px;
+}
